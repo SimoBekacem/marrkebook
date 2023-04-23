@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+header img {
+    float: left;
+}
+.head_links{
+    float: right;
+}
+.head_links a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1em
+}
+.head_links a:hover{
+    color: rgb(251	89	89);
+    cursor: pointer;
+}
+.head_links button{
+    padding: 7px;
+    width: 100px;
+    letter-spacing: 0.2em ;
+    border-radius : 5px;
+    background-color:rgb(251	89	89) ;
+    border-radius:5px;
+}
+.head_links button:hover{
+    background-color: white;
+    border: 2px solid rgb(251	89	89);
+    color: rgb(251	89	89);
+    cursor: pointer;
+}
+.discreption{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(70px);
+}
+.discreption_item1 {
+    transform: translateY(70px);
+}
+.discreption_item1 h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.discreption_item1 p {
+    width: 100%;
+    font-size: 1.25rem;
+    color: gray;
+    margin-bottom: 30px;
+}
+.discreption_item1 button {
+    padding: 8px;
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: rgb(82	102	226	);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.but1:hover{
+    background-color: white;
+    border: 2px solid rgb(82	102	226	);
+    color:rgb(82	102	226	);
+    cursor: pointer;
+    box-shadow: none;
+}
+.but2:hover{
+    box-shadow: none;
+    background-color: white;
+    border: 2px solid black;
+    color:black;
+    cursor: pointer;
+}
+.discreption_item2{
+    margin-right: -60px;
+}
+.features{
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.features h1{
+    margin-bottom: 20px;
+}
+.features p{
+    color: gray;
+    font-size: 1.15rem;
+}
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-bottom:1px solid gray ;
+    padding: 0;
+    
+}
+.advantages a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.advantages a:hover{
+    color: rgb(251	89	89);
+    cursor: pointer;
+}
+/* for the line under the features */
+.underline{
+    border-bottom: 5px solid rgb(251	89	89) ;
+    padding-bottom: 20px;
+}
+.choises{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.choises_info{
+    width: 40%;
+    transform: translateY(70px);
+}
+.choises_info p{
+    color: gray;
+    font-size: 1.15rem;
+}
+.choises_info button{
+    padding: 7px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(82	102	226	) ;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.download{
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+.download h1{
+    margin-bottom: 20px;
+}
+.download p{
+    color: gray;
+    font-size: 1.15rem;
+}
+.browsers{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.browsers div {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+.chrome{
+    text-align: center;
+}
+.browsers img{
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+.browsers h2{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.browsers p{
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 20px;
+    border-bottom: 5px dotted rgb(red, green, blue) ;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom:2px dotted gray;
+    border-width: 5px;
+
+}
+.browsers button{
+    padding-right: 20px;
+    padding-left:20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(82	102	226	);
+    color: white;
+    border: none;
+    margin: 25px;
+    border: 1px solid black;
+}
+.browsers button:hover{
+    background-color: white;
+    border: 1px solid rgb(82	102	226	);
+    color:rgb(82	102	226	);
+    cursor: pointer;
+}
+.close{
+    display: none;
+}
+.firefox{
+    text-align: center;
+    transform: translateY(30px);
+}
+.opera{
+    text-align: center;
+    transform: translateY(60px);
+}
+.questions{
+    width: 40%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.questions h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.questions h3:hover{
+    color: rgb(251	89	89);
+    cursor: pointer;
+}
+.questions p{
+    text-align: center;
+    color: gray;
+    margin-bottom: 70px;
+    display: none;
+}
+.question{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.question p{
+    text-align: left;
+    line-height: 2rem;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+.question img{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+.question h3{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.more{
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(82	102	226	);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    transform: translateX(15vw);
+}
+.stay{
+    background-color:  rgb(82	102	226	);
+    text-align: center;
+}
+.stay p{
+    padding-top: 40px;
+    font-size: 0.65rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.stay h2 {
+    width: 25%;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.stay input {
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+}
+.stay button{
+    height: 45px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.stay button:hover{
+    background-color: white;
+    border: 2px solid rgb(251	89	89);
+    color: rgb(251	89	89);
+    cursor: pointer;
+}
+
+footer{
+    background-color:#03045e ;
+    height: 60px;
+}
+.flinks{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    padding-top: 20px;
+    margin-left: 150px;
+    text-decoration: none;
+}
+.flinks a{
+    text-decoration: none; 
+    color: white;   
+    font-size: 0.75rem;
+    margin-top: 4px;
+}
+.flinks a:hover{
+    color: rgb(251	89	89);
+    cursor: pointer;
+}
+.images{
+    float: right;
+    margin-top: -25px;
+    margin-right: 150px;
+}
+.images img{
+    margin-left: 20px;
+}
+
+
